@@ -1,0 +1,90 @@
+* {
+	font-family: Droid Sans;
+	color: black;	
+}
+
+#header {
+	/*border: 1px dashed black;*/
+	height: 80px
+}
+
+#toplinks {
+	/*border: 1px dashed black;*/
+	float: right;
+	margin: 10px 10px 10px;
+	height: 40px
+}
+
+#toplinks ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#toplinks li {
+	display: inline
+}
+
+.textlinks {
+	padding-right: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#google {
+	width: 17em;
+	position: relative;
+	top: 100px;
+	margin: auto;
+}
+
+#form {
+	position: relative;
+	top: 80px;
+	width: 500px;
+	padding-top: 50px;
+	margin: auto;
+}
+
+#search input {
+width: 500px;
+margin: auto;
+height: 25px;
+background: url(img/mic.png) right no-repeat;
+
+}
+
+.search input:hover {
+	border: 1px solid blue;
+}
+.btn {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#footer {
+position: fixed;
+width: 100%;
+bottom: 0;
+right: 0;
+height:35px;
+background: lightgrey;
+color: grey;
+}
+
+#footer li {
+list-style-type: none;
+padding-right: 1em;
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
